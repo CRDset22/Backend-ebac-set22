@@ -1,0 +1,17 @@
+  Programação Procedural :
+
+	- um paradigma de programação
+	- um sinônimo de programação imperativa
+	- baseada no conceito de procedure calls
+	- mais difícil de refatorar
+	- menos modular (delegação de responsabilidade mais confusa ou até nenhuma)
+
+  Programação Orientada a Objeto :
+
+	- um paradigma de programação
+	- mais popular, por traduzir mais os objetos da vida real
+	- melhor modularidade e delegação de responsabilidade
+	- melhor de refatorar
+	- melhor escalabilidade
+
+  Cada estilo de programação irá depender da tarefa que esse executará, cabe ao programador escolher o que será melhor. Se   fosse ""COMPARAR"" os dois tipos de paradigmas, eu usaria os sistemas de monolito -> (ex: Procedural) e micro-serviços -> (ex: POO)   para   fazer essa comparação a grosso modo.

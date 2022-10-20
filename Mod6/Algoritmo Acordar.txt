@@ -1,0 +1,16 @@
+Algoritmo -> Acordar
+
+	1 - levantar da cama
+	2 - calçar chinelo
+	3 - ir para o banheiro
+	4 - tomar banho e escovar os dentes
+	5 - sair do banheiro
+	6 - colocar água no fogo
+	7 - pegar o pó de café, açucar, pão francês, manteiga e colocar na mesa
+	8 - colocar roupas
+	9 - colocar açucar na água e pó no quador
+	10 - passar o café e colocar manteiga no pão
+	11 - tomar o café
+	12 - re-escovar os dentes
+	13 - pegar carteira, chave e celular
+	14 - sair para a rua
