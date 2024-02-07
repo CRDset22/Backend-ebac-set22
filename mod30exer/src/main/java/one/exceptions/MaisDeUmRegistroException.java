@@ -3,10 +3,7 @@
  */
 package one.exceptions;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class MaisDeUmRegistroException extends Exception {
 
 	

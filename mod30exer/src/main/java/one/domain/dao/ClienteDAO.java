@@ -77,10 +77,10 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
         sb.append("ENDERECO = ?,");
         sb.append("NUMERO = ?,");
         sb.append("CIDADE = ?,");
-        sb.append("ESTADO = ?");
-        sb.append("GENERO = ?");
-        sb.append("RELIGIAO = ?");
-        sb.append("PAIS = ?");
+        sb.append("ESTADO = ?,");
+        sb.append("GENERO = ?,");
+        sb.append("RELIGIAO = ?,");
+        sb.append("PAIS = ? ");
         sb.append(" WHERE CPF = ?");
         return sb.toString();
     }
