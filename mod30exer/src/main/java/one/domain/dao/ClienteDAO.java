@@ -93,10 +93,10 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
         stmUpdate.setLong(4, entity.getNumero());
         stmUpdate.setString(5, entity.getCidade());
         stmUpdate.setString(6, entity.getEstado());
-        stmUpdate.setLong(7, entity.getCpf());
-        stmUpdate.setString(8, entity.getGenero());
-        stmUpdate.setString(9, entity.getReligiao());
-        stmUpdate.setString(10, entity.getPais());
+        stmUpdate.setString(7, entity.getGenero());
+        stmUpdate.setString(8, entity.getReligiao());
+        stmUpdate.setString(9, entity.getPais());
+        stmUpdate.setLong(10, entity.getCpf());
         
     }
 

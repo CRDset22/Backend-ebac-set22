@@ -9,10 +9,7 @@ import java.sql.SQLException;
 import one.domain.dao.generic.GenericDAO;
 import one.domain.Produto;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ProdutoDAO extends GenericDAO<Produto, String> implements IProdutoDAO {
 	
 	public ProdutoDAO() {
@@ -70,8 +67,8 @@ public class ProdutoDAO extends GenericDAO<Produto, String> implements IProdutoD
 		sb.append("SET CODIGO = ?,");
 		sb.append("NOME = ?,");
 		sb.append("DESCRICAO = ?,");
-		sb.append("VALOR = ?");
-		sb.append("CODIGO_EXTERNO = ?");
+		sb.append("VALOR = ?,");
+		sb.append("CODIGO_EXTERNO = ?,");
 		sb.append("PAIS = ?");
 		sb.append(" WHERE CODIGO = ?");
 		return sb.toString();
@@ -83,9 +80,9 @@ public class ProdutoDAO extends GenericDAO<Produto, String> implements IProdutoD
 		stmUpdate.setString(2, entity.getNome());
 		stmUpdate.setString(3, entity.getDescricao());
 		stmUpdate.setBigDecimal(4, entity.getValor());
-		stmUpdate.setString(5, entity.getCodigo());
-		stmUpdate.setString(6, entity.getCodigoExterno());
-		stmUpdate.setString(7, entity.getPais());
+		stmUpdate.setString(5, entity.getCodigoExterno());
+		stmUpdate.setString(6, entity.getPais());
+		stmUpdate.setString(7, entity.getCodigo());
 	}
 
 	@Override
