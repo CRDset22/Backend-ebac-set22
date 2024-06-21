@@ -1,0 +1,17 @@
+br\com\rpires\exceptions\MaisDeUmRegistroException.class
+br\com\rpires\service\IClienteService.class
+br\com\rpires\controller\ClienteController.class
+br\com\rpires\dao\generic\GenericDAO.class
+br\com\rpires\exceptions\TipoChaveNaoEncontradaException.class
+br\com\rpires\services\generic\IGenericService.class
+br\com\rpires\service\ClienteService.class
+br\com\rpires\exceptions\TipoElementoNaoConhecidoException.class
+br\com\rpires\exceptions\TableException.class
+br\com\rpires\dao\IClienteDAO.class
+br\com\rpires\dao\generic\IGenericDAO.class
+br\com\rpires\domain\Persistente.class
+br\com\rpires\exceptions\DAOException.class
+br\com\rpires\services\generic\GenericService.class
+br\com\rpires\dao\ClienteDAO.class
+br\com\rpires\domain\Cliente.class
+br\com\rpires\controller\IndexController.class
