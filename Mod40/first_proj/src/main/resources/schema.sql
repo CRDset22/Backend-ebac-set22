@@ -1,0 +1,11 @@
+CREATE TABLE cliente (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    cpf BIGINT NOT NULL UNIQUE,
+    tel BIGINT NOT NULL,
+    endereco VARCHAR(100) NOT NULL,
+    numero INTEGER NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    estado VARCHAR(50) NOT NULL
+);
